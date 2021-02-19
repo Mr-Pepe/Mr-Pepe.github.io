@@ -17,19 +17,20 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9 
+  limit: 20
   exclude:
-    archived: false 
-    forks: false
-    projects: 
-      - VisualizingTheFuture2
-      - VisualizingtheFuture.github.io
-      - visualizations
-      - intro-to-flexdashboard
+    archived: false
+    forks: true
+    projects:
+      - pengyou-flutter
+      - nested-navigation
+      - pengyou-data-generator
+      - pleco-viewer
+      - iccbc19
   
 about:
   - name: D
@@ -57,62 +58,37 @@ works:
     position2: University of Michigan Economics Department
     period: October 2017 - December 2019
 
-  - name: Lead Instructor, Vice President 
-    position: • Ann Arbor, Michigan
-    position2: University of Michigan Taekwondo Club
-    period: September 2018 - March 2020
-
-  - name: Grant Writing Intern
-    position: • Tirana, Albania
-    position2: Ministry of Economic Development, Tourism, Trade & Entrepreneurship
-    period: June 2017 - August 2017
-
-  - name: Community Organization Intern
-    position: • Ann Arbor, Michigan
-    position2: Clean Water Action
-    period: July 2016 - August 2016
+  
 
 
 education:
-  - name: University of Virginia, School of Data Science • Charlottesville, Virginia
-    position: M.S. Candidate in Data Science
-    period: July 2020 - May 2021
+  - name: Technical University of Munich • Munich, Germany
+    position: Graduate studies in "Robotics, Cognition, Intelligence"
+    position2: Machine learning fundamentals • Deep learning in computer vision, robotics, and computational biology • Bare-bones microcontroller programming in C
+    period: October 2017 - April 2021
 
-  - name: Beijing Language and Culture University (北京语言大学) • Beijing, PRC
-    position: Certificate in Intensive Mandarin
-    period: September 2018 - December 2018
+  - name: LTL Mandarin School • Shanghai, China
+    position: 400 hours of 1-on-1 Mandarin lessons
+    position2: HSK 5 test passed with 274/300 points in Dec. 2019
+    period: September 2019 - January 2020  
+    
+  - name: Tsinghua University • Beijing, China
+    position: Exchange semester
+    position2: Deep learning in network security and computational biology • Mandarin
+    period: September 2018 - January 2019
 
-  - name: University of Michigan, College of Literature, Science, and the Arts • Ann Arbor, Michigan
-    position: B.S. in Economics with High Honors •  Minor in Mathematics
-    position2: Undergraduate Thesis - Playing by the Rules; How had the TRIPS Agreement Affected IP Adherence?
-    period: September 2016 - May 2020
-  
-  - name: Delton Kellogg High School • Delton, Michigan
-    position: High School Diploma
-    period: September 2012 - May 2016
+  - name: Baden-Wuerttemberg Cooperative State University • Stuttgart, Germany
+    position: Undergraduate studies in Electrical Engineering
+    position2: Automation • Control systems • E-mobility
+    position3: "Thesis topic: Analysis of predictive operation strategies for reducing the energy consumption of electric vehicles"
+    period: September 2012 - September 2015
   
 
 
 topics:
-  - name: R
-    web_url: https://github.com/topics/R
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/r/r.png
-
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
-
-  - name: SQL
-    web_url: https://github.com/topics/sql
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
-
-  - name: HTML
-    web_url: https://github.com/topics/HTML
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
-
-  - name: CSS
-    web_url: https://github.com/topics/CSS
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: JavaScript
     web_url: https://github.com/topics/javascript
@@ -120,17 +96,17 @@ topics:
 
 social_media:
   #stackoverflow: 13520207
-  linkedin: amanda-west-a33260131/
-  # facebook: amanda.west.148553
-  # instagram: a_west213 
+  linkedin: felipe-peter-4755541bb
+  # facebook: your_username
+  # instagram: your_username 
   # behance: your_username
   # dribbble: your_username
   # hackerrank: your_username
   # keybase: your_username
   # mastodon: your_username
   # telegram: your_username
-  twitter: amawest_
-  medium: amawest
+  # twitter: your_username
+  medium: Mr_Pepe
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url

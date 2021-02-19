@@ -1,5 +1,5 @@
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Education 🎓</h2>
-<p style = "margin: 0 0 0 0;" class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">#sleepless #nights</p>
+<p style = "margin: 0 0 0 0;" class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">  </p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
   <ul>
     {% for education in site.education %}
@@ -7,6 +7,7 @@
         <p style = "margin-left: 25px" class="text-bold">{{ education.name }}</p>
         <p style = "margin-left: 25px" class="text-normal">{{ education.position }}</p>
         <i><p style = "margin-left: 25px" class="text-normal">{{ education.position2 }}</p></i>
+        <i><p style = "margin-left: 25px" class="text-normal">{{ education.position3 }}</p></i>
         <p style = "margin-left: 25px" class="text-normal">{{ education.period }}</p>
     </p>
     <br>
