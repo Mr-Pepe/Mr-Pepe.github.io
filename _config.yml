@@ -1,7 +1,7 @@
 layout: sidebar
 style: light
 
-plugins: 
+plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
@@ -10,7 +10,7 @@ permalink: /:year/:month/:day/:title/
 
 defaults:
   -
-    scope: 
+    scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -31,7 +31,7 @@ projects:
       - pengyou-data-generator
       - pleco-viewer
       - iccbc19
-  
+
 about:
   - name: D
     position: C
@@ -48,30 +48,30 @@ contact:
     period: O
 
 works:
-  - name: Data Visualization Specialist
-    position: • Ann Arbor, Michigan
-    position2: Clark Data Labs
-    period: October 2019 - April 2020
+  - name: Porsche • Stuttgart, Germany
+    position: Development Engineer
+    position2: Responsible for the 48V electrical energy management software across all model ranges • Implementation of processes inside the Volkswagen group to minimize power consumption of onboard electrical components
+    period: October 2015 - September 2017
 
-  - name: Research Assistant
-    position: • Ann Arbor, Michigan
-    position2: University of Michigan Economics Department
+  - name: Porsche • Stuttgart, Germany
+    position: Working student in Porsche's integrated degree program
+    position2: Project work in different departments, most notably contributing to Porsche InnoDrive
     period: October 2017 - December 2019
 
-  
+
 
 
 education:
   - name: Technical University of Munich • Munich, Germany
-    position: Graduate studies in "Robotics, Cognition, Intelligence"
+    position: Graduate studies in robotics and AI
     position2: Machine learning fundamentals • Deep learning in computer vision, robotics, and computational biology • Bare-bones microcontroller programming in C
     period: October 2017 - April 2021
 
   - name: LTL Mandarin School • Shanghai, China
     position: 400 hours of 1-on-1 Mandarin lessons
     position2: HSK 5 test passed with 274/300 points in Dec. 2019
-    period: September 2019 - January 2020  
-    
+    period: September 2019 - January 2020
+
   - name: Tsinghua University • Beijing, China
     position: Exchange semester
     position2: Deep learning in network security and computational biology • Mandarin
@@ -82,7 +82,7 @@ education:
     position2: Automation • Control systems • E-mobility
     position3: "Thesis topic: Analysis of predictive operation strategies for reducing the energy consumption of electric vehicles"
     period: September 2012 - September 2015
-  
+
 
 
 topics:

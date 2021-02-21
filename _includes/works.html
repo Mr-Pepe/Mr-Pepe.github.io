@@ -4,7 +4,8 @@
   <ul>
     {% for work in site.works %}
     <p style = "margin: 0 0 0 0; class="text-normal">
-        <p style = "margin-left: 25px" ><b>{{ work.name }}</b>{{ work.position }}</p>
+        <p style = "margin-left: 25px" class="text-bold">{{ work.name }}</p>
+        <p style = "margin-left: 25px" class="text-normal">{{ work.position }}</p>
         <i><p style = "margin-left: 25px" class="text-normal">{{ work.position2 }}</p></i>
         <p style = "margin-left: 25px" class="text-normal">{{ work.period }}</p>
     </p> 
