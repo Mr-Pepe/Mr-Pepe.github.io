@@ -32,6 +32,10 @@ projects:
       - pleco-viewer
       - iccbc19
 
+repo_descriptions:
+  - name: stroke-order-animator
+    text: ASDASDASDASDASDASDASDASD
+
 about:
   - name: D
     position: C

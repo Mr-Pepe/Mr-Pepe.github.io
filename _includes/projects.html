@@ -1,8 +1,8 @@
 <!-- Projects i.e. connected Github repos -->
 
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Projects</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Excited to add more personal projects here as I get the chance!</p>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}"></p>
+<div class="flex-wrap mb-4"  style = "margin-left: 12px;">
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
   {% else %}
@@ -21,7 +21,7 @@
 
   {% for repository in filtered_repos | limit: site.projects.limit %}
     {% unless site.projects.exclude.projects contains repository.name %}
-      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      <div class="mb-3">
         {% include repo-card.html %}
       </div>
     {% endunless %}
