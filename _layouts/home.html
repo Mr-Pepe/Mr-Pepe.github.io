@@ -1,133 +1,131 @@
 {% include header.html %}
 
 {% if site.layout == 'stacked' %}
-  <div class="container-lg py-6 p-responsive text-center">
-    {% include masthead.html metadata=true %}
+<div class="container-lg py-6 p-responsive text-center">
+  {% include masthead.html metadata=true %}
 
-    <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
-      {{ content }}
-    </div>
-
-    {% if site.about %}
-    <div class="my-6">
-      {% include about.html %}
-    </div>
-  {% endif %}
-
-    {% if site.topics %}
-      <div class="my-6">
-        {% include interests.html %}
-      </div>
-    {% endif %}
-
-    {% if site.works %}
-      <div class="my-6">
-        {% include works.html %}
-      </div>
-    {% endif %}
-
-    {% if site.education %}
-      <div class="my-6">
-        {% include education.html %}
-      </div>
-    {% endif %}
-
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
-
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
-
-    {% if site.papers %}
-      <div class="my-6">
-        {% include papers.html %}
-      </div>
-    {% endif %}
-
-    {% if site.awards %}
-      <div class="my-6">
-        {% include awards.html %}
-      </div>
-    {% endif %}
-
-    {% if site.contact %}
-    <div class="my-6">
-      {% include contact.html %}
-    </div>
-  {% endif %}
-
-    {% if site.ending %}
-    <div class="my-6">
-      {% include ending.html %}
-    </div>
-  {% endif %}
-
+  <div {% if site.style=='dark' %}class="text-white" {% endif %}>
+    {{ content }}
   </div>
+
+  {% if site.about %}
+  <div class="my-6">
+    {% include about.html %}
+  </div>
+  {% endif %}
+
+  {% if site.topics %}
+  <div class="my-6">
+    {% include interests.html %}
+  </div>
+  {% endif %}
+
+  {% if site.works %}
+  <div class="my-6">
+    {% include works.html %}
+  </div>
+  {% endif %}
+
+  {% if site.education %}
+  <div class="my-6">
+    {% include education.html %}
+  </div>
+  {% endif %}
+
+  <div class="my-6">
+    {% include projects.html %}
+  </div>
+
+  {% unless posts_total == 0 %}
+  <div class="my-6">
+    {% include thoughts.html %}
+  </div>
+  {% endunless %}
+
+  {% if site.papers %}
+  <div class="my-6">
+    {% include papers.html %}
+  </div>
+  {% endif %}
+
+  {% if site.awards %}
+  <div class="my-6">
+    {% include awards.html %}
+  </div>
+  {% endif %}
+
+  {% if site.contact %}
+  <div class="my-6">
+    {% include contact.html %}
+  </div>
+  {% endif %}
+
+  {% if site.ending %}
+  <div class="my-6">
+    {% include ending.html %}
+  </div>
+  {% endif %}
+
+</div>
 {% else %}
 
-       <!-- this is how you affect background color! LHS -->
+<!-- this is how you affect background color! LHS -->
 
-  <div class="d-md-flex {% unless site.style == 'light' %}border-md-bottom{% endunless %}">
-    <div class="flex-self-stretch {% if site.style == 'light' %}bg-red-light{% else %}border-md-right border-black bg-black{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
-      {% include masthead.html metadata=true %}
-    </div>
-    
+<div class="d-md-flex {% unless site.style == 'light' %}border-md-bottom{% endunless %}">
+  <div class="flex-self-stretch col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6" {% if site.style=='light'
+    %}style="background-color: #8f97a1 !important" {% else %}border-md-right border-black bg-black{% endif %}>
+    {% include masthead.html metadata=true %}
+  </div>
 
-        <!-- this is how you affect background color! RHS. Any weird color is A.O.K. -->
 
-    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-dark" {% if site.style == 'light' %}style="background-color: rgb(255, 250, 255) !important"{% endif %}>
-      <div class="mx-auto" style="max-width: 900px;">
-        {% unless content == ""  %}
-          <div class="f4 {% if site.style == 'light' %}text-black{% endif %} mb-6">
-            {{ content }}
-          </div>
-        {% endunless %}
+  <!-- this is how you affect background color! RHS. Any weird color is A.O.K. -->
 
-        {% if site.about %}
-          {% include about.html %}
-        {% endif %}
-
-        {% if site.topics %}
-          {% include interests.html %}
-        {% endif %}
-
-        {% if site.education %}
-          {% include education.html %}
-        {% endif %}
-        
-        {% if site.works %}
-          {% include works.html %}
-        {% endif %}
-
-        {% include projects.html %}
-
-        {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %}
-
-        {% if site.papers %}
-          {% include papers.html %}
-        {% endif %}
-
-        {% if site.awards %}
-          {% include awards.html %}
-        {% endif %}
-
-        {% if site.contact %}
-          {% include contact.html %}
-      {% endif %}
-
-        {% if site.ending %}
-        {% include ending.html %}
-      {% endif %}
-
+  <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-dark" {% if
+    site.style=='light' %}style="background-color: rgb(255, 250, 255) !important" {% endif %}>
+    <div class="mx-auto" style="max-width: 900px;">
+      {% unless content == "" %}
+      <div class="f4 {% if site.style == 'light' %}text-black{% endif %} mb-6">
+        {{ content }}
       </div>
+      {% endunless %}
+
+      {% if site.about %}
+      {% include about.html %}
+      {% endif %}
+
+      {% if site.works %}
+      {% include works.html %}
+      {% endif %}
+
+      {% if site.education %}
+      {% include education.html %}
+      {% endif %}
+
+      {% include projects.html %}
+
+      {% if site.topics %}
+      {% include interests.html %}
+      {% endif %}
+
+      {% unless posts_total == 0 %}
+      {% include thoughts.html %}
+      {% endunless %}
+
+      {% if site.papers %}
+      {% include papers.html %}
+      {% endif %}
+
+      {% if site.awards %}
+      {% include awards.html %}
+      {% endif %}
+
+      {% if site.ending %}
+      {% include ending.html %}
+      {% endif %}
+
     </div>
   </div>
+</div>
 {% endif %}
 
 {% include footer.html %}
