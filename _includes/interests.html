@@ -1,14 +1,15 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Interests</h2>
-<p class="f4 mb-6 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Some other topics I follow and occasionally get involved in.</p>
+<div id="Interests" style="margin: 0px; padding: 0px; color:rgb(255, 250, 255);">_</div>
+<h2 {% if site.style=='dark' %}class="text-white" {% endif %}>Interests</h2>
+<p class="f4 mb-6 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Some other topics I follow and
+  occasionally get involved in.</p>
 
 
-<div class="flex-wrap mb-4"  style = "margin-left: 12px;">
+<div class="flex-wrap mb-4" style="margin-left: 12px;">
   {% for topic in site.topics %}
-    <div class="mb-3">
-      {% include topic-card.html %}
-    </div>
+  <div class="mb-3">
+    {% include topic-card.html %}
+  </div>
   {% endfor %}
 </div>
 <br>
-<div id="Education" style = "margin: 0px; padding: 0px; color:rgb(255, 250, 255);" >_</div>
 <hr>
