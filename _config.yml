@@ -46,7 +46,7 @@ repo_descriptions:
     text: A shared effort by a fellow student and me, this project was part of a course on advanced deep learning for <b>computer vision</b>. We applied <b>variational auto-encoders</b> with a special differentiable bottleneck to recover disentangled and physically interpretable latent representations from image sequences.
 
   - name: tingting
-    text: Concurrently pondering <b>protein sequence alignment</b> and how to improve my listening comprehension led me to writing this little <b>Flutter</b> app. It uses the Smith-Waterman algorithm for local sequence alignment to automatically compare what one has written during a dictation with a ground truth.
+    text: Concurrently pondering <b>protein sequence alignment</b> and how to improve my Chinese listening comprehension led me to writing this little <b>Flutter</b> app. It uses the Smith-Waterman algorithm for local sequence alignment to automatically compare what one has written during a dictation with a ground truth.
 
   - name: deep-image-restoration
     text: This project is a <b>PyTorch</b> implementation of a UNet for image restoration tasks like pixel interpolation. It also incorporates an on-demand learning approach that improves convergence speed and stability by automatically choosing training samples with just the right difficulty.
@@ -108,13 +108,23 @@ education:
 
 
 topics:
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+  - name: CC-CEDICT
+    web_url: https://cc-cedict.org
+    image_url: https://cdn4.iconfinder.com/data/icons/logos-4/24/Translate-512.png
+    description: This open-source Chinese-English dictionary is a prime example of making knowledge accessible to everyone. I myself have contributed around 50 entries to the dictionary so far.
 
-  - name: JavaScript
-    web_url: https://github.com/topics/javascript
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+  - name: KDE
+    web_url: https://kde.org/
+    image_url: http://www.clker.com/cliparts/e/9/7/1/11949942481641741323about_kde.svg.med.png
+    description: I use KDE's desktop environment Plasma as my daily driver, follow the community mailing lists with keen interest, and occasionally chime in with bug reports or small contributions.
+
+  - name: Flutter
+    web_url: https://flutter.dev/
+    image_url: https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png
+    description: Flutter has created quite a buzz when it comes to developing cross-platform applications. I use it for my side projects and have also written a Medium article about some of its navigation mechanics.
+
+
+
 
 social_media:
   #stackoverflow: 13520207

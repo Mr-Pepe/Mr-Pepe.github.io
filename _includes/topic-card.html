@@ -1,32 +1,14 @@
-<!-- mb-3 refers to the distance from the "knowledge" icons to the words below.-->
-
-<!-- if given a web url-->
 {% if topic.web_url %}
-  <a href="{{ topic.web_url }}" class="github-component position-relative no-underline d-flex flex-column hover-grow height-full "> <!-- good -->
-    {% if topic.image_url %}
-      <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}"> <!-- good -->
-    {% else %}
-      <div>
-        #
-      </div>
-    {% endif %}
+<div class="d-flex f6 mb-4 ml-2" style=>
+  <a href="{{ topic.web_url }}"
+    class="github-component position-relative no-underline d-flex flex-column hover-grow height-full ">
+    <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
   </a>
-
-<!-- if not a web url-->
-{% else %}
-  <div class="github-component position-relative height-full text-center ">
-    {% if topic.image_url %}
-      <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}"> <!-- good -->
-    {% else %}
-      <div
-        style="width:64px; height:64px;"
-      >
-        #
-      </div>
-    {% endif %}
-    <p class="f3 lh-condensed text-center mb-0 mt-1">{{ topic.name }}</p>
-    {% if topic.description %}
-      <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
-    {% endif %}
+  <div>
+    <p style="margin-left: 25px" class="text-bold">{{ topic.name }}</p>
+    <p style="margin-left: 25px" class="text-normal">{{ topic.description }}</p>
   </div>
+</div>
+
+
 {% endif %}
