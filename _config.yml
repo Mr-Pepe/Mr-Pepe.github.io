@@ -34,7 +34,25 @@ projects:
 
 repo_descriptions:
   - name: stroke-order-animator
-    text: ASDASDASDASDASDASDASDASD
+    text: This Flutter project was a great opportunity for me to practice <b>test-driven development</b> and <b>continuous integration/deployment</b>. Github actions automatically run a test suite for every pull request to the master branch of the repository and publish the package on pub.dev when all tests pass and the version number has been incremented.
+
+  - name: ns18
+    text: The final project of the <b>network security</b> course I took during my exchange semester at Tsinghua University tested my understanding of how the <b>internet, firewalls, and deep packet inspection</b> work.
+
+  - name: pengyou
+    text: Writing a Chinese learning app is definitely a great way to procrastinate when one should actually be studying Chinese. This project was my first deep dive into <b>mobile development</b> by writing a <b>native Android app</b> and ultimately publishing it to the Google Play store.
+
+  - name: dl4cv
+    text: A shared effort by a fellow student and me, this project was part of a course on advanced deep learning for <b>computer vision</b>. We applied <b>variational auto-encoders</b> with a special differentiable bottleneck to recover disentangled and physically interpretable latent representations from image sequences.
+
+  - name: tingting
+    text: Concurrently pondering <b>protein sequence alignment</b> and how to improve my listening comprehension led me to writing this little <b>Flutter</b> app. It uses the Smith-Waterman algorithm for local sequence alignment to automatically compare what one has written during a dictation with a ground truth.
+
+  - name: deep-image-restoration
+    text: This project is a <b>PyTorch</b> implementation of a UNet for image restoration tasks like pixel interpolation. It also incorporates an on-demand learning approach that improves convergence speed and stability by automatically choosing training samples with just the right difficulty.
+
+  - name: cb18
+    text: The final project of the <b>computational biology</b> course I took during my exchange semester at Tsinghua University aims to improve the performance of synergy predictions of drug combinations for cancer treatment by applying dimensionality reduction techniques to the dataset.
 
 about:
   - name: D
